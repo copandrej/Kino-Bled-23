@@ -14,7 +14,7 @@ html {
 :root {
     --mainBgColor: white;
     --mainTxtColor: #ffebc6;
-    --hoverColor: #df6437;
+    --hoverColor: rgba(42, 53, 96, 0.9);
     --transitioni: 80ms;
 }
 

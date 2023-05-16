@@ -12,7 +12,7 @@ html {
 }
 /*vars*/
 :root {
-    --mainBgColor: #26281e;
+    --mainBgColor: white;
     --mainTxtColor: #ffebc6;
     --hoverColor: #df6437;
     --transitioni: 80ms;

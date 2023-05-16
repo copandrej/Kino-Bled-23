@@ -1,0 +1,42 @@
+/* Temporary overwrite */
+.naslov img {
+    /* center horizontally and vertically */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+body {
+    background-image: url("../img/logo2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.temp {
+    position: fixed;
+    left: 0;
+    bottom: 80px;
+    width: 100%;
+}
+
+.temp a, .temp span, .temp h3 {
+    color: rgba(241, 201, 191, 0.9);
+    font-size: 23px!important;
+}
+
+@media only screen and (max-width: 1250px) {
+    body {
+        background-image: url("../img/logo_mob.png");
+    }
+    .temp a, .temp span, .temp h3 {
+        color: rgba(241, 201, 191, 0.9);
+        font-size: 18px!important;
+    }
+    
+}

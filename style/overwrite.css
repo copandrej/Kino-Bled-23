@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url("../img/logo2.png");
+    background-image: url("../img/logo2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -32,7 +32,7 @@ body {
 
 @media only screen and (max-width: 1250px) {
     body {
-        background-image: url("../img/logo_mob.png");
+        background-image: url("../img/logo_mob.jpg");
     }
     .temp a, .temp span, .temp h3 {
         color: rgba(241, 201, 191, 0.9);

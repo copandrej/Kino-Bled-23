@@ -17,7 +17,13 @@ html {
     --hoverColor: rgba(42, 53, 96, 0.9);
     --transitioni: 80ms;
 }
-
+body {
+    background-image: url("../img/ozadje.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 * {
     text-decoration: none;
     color: var(--mainTxtColor);

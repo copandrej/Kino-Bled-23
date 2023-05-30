@@ -47,20 +47,125 @@
 
 <body>
 
-    <div class="temp">
+    <div class="mobile">
 
-        <h3>
-            <a target="_blank" href="https://www.facebook.com/kinobled">FACEBOOK</a> /
-            <a target="_blank" href="https://www.instagram.com/kinobled/">INSTAGRAM</a>
-        </h3>
+        <div class="jezik">
+            <h3><span class="hover slo">SLO</span> / <span class="hover eng">ENG</span></h3>
+        </div>
 
-        <a target="_blank" href="mailto:info@kinobled.com">
+        <div class="naslov">
+            <h1><img alt="Kino Bled" src="img/logo.png"></h1>
+        </div>
+
+        <div class="podnaslov">
             <h3>
-                <span class="hover prevedi">PIŠITE NAM</span>
+                <img style="width: 200px;" alt="17. - 25. 6. 2023 " src="img/datum.png">
             </h3>
-        </a>
-
+        </div>
+        <a href="#program"><i class="arrow down"></i></a>
     </div>
 
+    <h3 id="program" class="prevedi" style="margin-bottom: -20px;">SELECT THE VENUE:</h3>
+    <h3 style="padding-bottom: 20px;"><br><br>
+        <span class="hover loc park" style="color: rgb(223, 100, 55);">PARK</span> <span class="hover loc fes prevedi"
+            style="color: rgb(255, 235, 198);">FESTIVALNA</span> <span class="hover loc itc prevedi"
+            style="display:none; color: rgb(255, 235, 198);">DRUGO</span>
+    </h3>
+
+    <div class="r display" onclick="zapri(this)" style="display: block; height: 41px;">
+        <h2><span class="minus">---</span><span class="hover dan">PONEDELJEK</span></h2>
+        <div class="skri">
+            <h3>21:30</h3>
+            <p><a href="sl/razprsilec">Razpršilec (10’)</a><br><a
+                    href="sl/projekcija-presenecenja">Projekcija presenečenja
+                    (119’)</a><br></p>
+        </div>
+    </div>
+
+    <div class="r display" onclick="zapri(this)" style="display: block; height: 41px;">
+        <h2><span class="minus">---</span><span class="hover dan">TOREK</span></h2>
+        <div class="skri">
+            <h3>19:00</h3>
+            <p><a href="sl/samuel-blues">Samuel Blues</a><br></p>
+            <h3>20:45</h3>
+            <p>Otvoritvena slovesnost<br></p>
+            <h3>21:30</h3>
+            <p><a href="sl/tvoja-gora">Tvoja gora te čaka (8')</a><br><a
+                    href="sl/inventura">Inventura (106')</a><br></p>
+        </div>
+    </div>
+
+    <div class="r" onclick="zapri(this)">
+        <h2><span class="minus">---</span><span class="hover dan">SREDA</span></h2>
+        <div class="skri">
+            <h3>19:00</h3>
+            <p><a href="sl/popotnik">Koncert: Popotnik</a><br></p>
+            <h3>21:30</h3>
+            <p><a href="sl/dobro-sem">Ja, dobro sem hvala (2’)</a><br><a
+                    href="sl/vse-povsod-naenkrat">Vse povsod naenkrat
+                    (140')</a><br></p>
+        </div>
+    </div>
+
+    <div class="r" onclick="zapri(this)" style="height: 41px;">
+        <h2><span class="minus">---</span><span class="hover dan" id="debug" style="display: inline;">ČETRTEK</span>
+        </h2>
+        <div class="skri">
+            <h3>19:00</h3>
+            <p><a href="sl/masharik">Koncert: Masharik</a><br></p>
+            <h3>21:30</h3>
+            <p><a href="sl/sava">Ena za reko: Zgodba Save (84')</a><br></p>
+        </div>
+    </div>
+
+    <div class="r" onclick="zapri(this)">
+        <h2><span class="minus">---</span><span class="hover dan">PETEK</span></h2>
+        <div class="skri">
+            <h3>21:30</h3>
+            <p><a href="sl/lana-in-toni">Lana in Toni (23’)</a><br><a
+                    href="sl/kajmak-in-marmelada">Kajmak in marmelada
+                    (92')</a><br></p>
+        </div>
+    </div>
+
+    <div class="r" onclick="zapri(this)">
+        <h2><span class="minus">---</span><span class="hover dan">SOBOTA</span></h2>
+        <div class="skri">
+            <h3>21:30</h3>
+            <p><a href="sl/trikotnik">Trikotnik (20')</a><br><a
+                    href="sl/neverjetno">Neverjetno, a resnično(73')</a><br>
+            </p>
+        </div>
+    </div>
+
+    <div class="r" onclick="zapri(this)">
+        <h2><span class="minus">---</span><span class="hover dan">NEDELJA</span></h2>
+        <div class="skri">
+            <h3>19:00</h3>
+            <p>Stand up: Tin Vodopivec in prijatelji<br></p>
+            <h3>20:45</h3>
+            <p>Zaključna slovesnost<br></p>
+            <h3>21:30</h3>
+            <p><a href="sl/sycamore">Sycamore (15’)</a><br><a
+                    href="sl/nebesa">Neke vrste nebesa (81')</a><br></p>
+        </div>
+    </div>
+
+    <div class="noga">
+        <h3 style="margin-bottom: 20px;"><span class="prevedi display" style="display: block;">VSTOP PROST</span><span class="prevedi "><a
+            class="visually-hidden no-display" href="https://olaii.com/event/1922/kino-bled-2022?lang=sl" target="_blank">KUPI VSTOPNICE</a></span></h3>
+        <h3><a target="_blank" href="https://www.facebook.com/events/755700492533906/?ref=newsfeed">FACEBOOK</a> / <a
+                target="_blank" href="https://www.instagram.com/kinobled/">INSTAGRAM</a></h3>
+        <a target="_blank" href="mailto:info@kinobled.com">
+            <h3><span class="hover prevedi">PIŠITE NAM</span></h3>
+        </a>
+        <h3 style="margin-top: 20px;"><span class="prevedi"><a href="sponzorji">SPONZORJI FESTIVALA</a></span></h3>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="vsebina/en-v1.js"></script>
+    <script src="vsebina/sl-v1.js"></script>
+    <script src="js/script-v1.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/*vars*/
+:root {
+  --mainBgColor: rgba(42, 53, 96, 0.9);
+  --mainTxtColor: #ffebc6;
+  --hoverColor: rgba(42, 53, 96, 0.9);
+  --transitioni: 80ms;
+}
+
+* {
+  text-decoration: none;
+  color: var(--mainTxtColor);
+}
+
+html {
+  font-family: 'Spartan', sans-serif;
+  font-size: 1em;
+  line-height: 1.4;
+  /* background-color: var(--mainBgColor); */
+}
+
+body {
+  background-image: url("../img/ozadje.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*hover za linke in gumbe*/
+.hover {
+  cursor: pointer;
+  -webkit-transition: var(--hoverColor);
+  -moz-transition: var(--hoverColor);
+  -o-transition: var(--hoverColor);
+  transition: var(--hoverColor);
+}
+
+.hover:hover,
+a:hover {
+  color: var(--hoverColor) !important;
+  -webkit-transition: var(--transitioni);
+  -moz-transition: var(--transitioni);
+  -o-transition: var(--transitioni);
+  transition: var(--transitioni);
+}
+
+
+/*gumbi linki pisava/stili*/
+.glava {
+  letter-spacing: -0.15em;
+  font-weight: 800;
+  font-size: 25pt;
+  line-height: 25pt;
+  margin: 6%;
+
+}
+
+/*vsebina stili*/
+p {
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+/*container za vsebino*/
+
+.paragraph {
+  margin: 20px;
+  float: left;
+}
+img, iframe {
+  max-width: 80%;
+  margin-left: 20px;
+}
+iframe {
+  width: 80vw!important;
+  height: 45vw!important;
+}
+
+/* ==========================================================================
+  Media Queries for Responsive Design.
+   ========================================================================== */
+
+@media only screen and (min-width: 40em) {
+  .glava {
+    margin: 4%;
+  }
+  .container {
+    margin-top: 150px;
+  }
+  
+}
+
+@media only screen and (min-width: 50em) {
+  .paragraph {
+    width: 40%;
+    font-size: 15pt;
+    margin: 100px;
+    margin-top: 0px;
+  }
+
+}
+
+@media only screen and (min-width: 65em) {
+  h2 {
+    font-size: 40pt;
+  }
+
+  .paragraph {
+    width: 30%;
+    margin-left: 240px;
+  }
+
+  img, iframe {
+    margin-left: 240px;
+    width: 600px;
+
+  }
+  iframe {
+    width: 700px!important;
+    margin-left: 150px;
+    height: 393.75px!important;
+  }
+}

@@ -1,0 +1,67 @@
+html {
+    background-color: #ffebc6;
+    color: black !important;
+}
+
+.paragraph {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black !important;
+    text-align: center;
+    width: 50%;
+    margin: 0;
+}
+
+/*centered container*/
+.container {
+    /*padding: 100px;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    min-height: 330px;
+    /*margin-top: 100px;*/
+}
+
+.glava a {
+    color: black !important;
+}
+
+.naslovnik {
+    color: black !important;
+    text-align: center;
+    margin-top: 150px;
+    width: 100%;
+    font-size: 2em !important;
+
+}
+
+@media only screen and (max-width: 1810px) {
+    .container {
+        width: 61%;
+    }
+
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .paragraph {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .container {
+        /*width: 100%;*/
+        margin: auto;
+        margin-top: 100px;
+        height: fit-content;
+        margin-bottom: 40px;
+    }
+
+    .butale {
+        margin-top: 455px;
+    }
+
+}

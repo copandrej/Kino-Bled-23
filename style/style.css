@@ -208,7 +208,7 @@ sup {
     #program {
         margin-top: 55px;
         padding: 1px;
-        border: solid var(--mainBgColor) 10px;
+        /* border: solid var(--mainBgColor) 10px; */
     }
 }
 

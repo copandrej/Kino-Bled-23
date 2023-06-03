@@ -3,6 +3,10 @@ html {
     color: black !important;
 }
 
+body {
+    background-image: none!important;
+}
+
 .paragraph {
     display: block;
     margin-left: auto;

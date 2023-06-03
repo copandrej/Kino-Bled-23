@@ -102,7 +102,7 @@ window.addEventListener("load", () => {
             prevedi[3].innerHTML = "VSTOP PROST";
             prevedi[4].innerHTML = '<a class="no-display visually-hidden" href="https://olaii.com/event/1922/kino-bled-2022?lang=sl" target="_blank">KUPI VSTOPNICE</a>';
             prevedi[5].innerHTML = "PI&#352ITE NAM";
-            prevedi[6].innerHTML = '<a href="sponzorji.html">SPONZORJI FESTIVALA</a>';
+            prevedi[6].innerHTML = '<a href="sponzorji">SPONZORJI FESTIVALA</a>';
             vsebina(trenutniJezik, trenutnaLokacija);
 
         } else {
@@ -112,12 +112,12 @@ window.addEventListener("load", () => {
                 spremeni[i].innerHTML = DneviEng[i];
             debug.style.display = "inline";
             prevedi[0].innerHTML = "SELECT THE VENUE:";
-            prevedi[1].innerHTML = "RADOLCA";
+            prevedi[1].innerHTML = "KINO RADOLCA";
             prevedi[2].innerHTML = "OTHER";
             prevedi[3].innerHTML = "FREE ENTRY";
             prevedi[4].innerHTML = '<a class="no-display visually-hidden" href="https://olaii.com/event/1922/kino-bled-2022?lang=en" target="_blank">BUY TICKETS</a>';
             prevedi[5].innerHTML = "EMAIL US";
-            prevedi[6].innerHTML = '<a href="sponsors.html">FESTIVAL SPONSORS</a>';
+            prevedi[6].innerHTML = '<a href="sponsors">FESTIVAL SPONSORS</a>';
             vsebina(trenutniJezik, trenutnaLokacija);
         }
     }

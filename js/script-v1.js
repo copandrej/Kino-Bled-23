@@ -36,8 +36,8 @@ window.addEventListener("load", () => {
     const dnevi = document.getElementsByClassName("skri");
 
     // Dnevi v tednu + jezik browserja
-    const DneviSlo = ["NEDELJA", "PONEDELJEK", "TOREK", "SREDA", "&#268ETRTEK", "PETEK", "SOBOTA", "NEDELJA"];
-    const DneviEng = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"];
+    const DneviSlo = ["PONEDELJEK", "TOREK", "SREDA", "&#268ETRTEK", "PETEK", "SOBOTA", "NEDELJA", "PONEDELJEK 25"];
+    const DneviEng = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY", "MONDAY 25."];
     const userLang = navigator.language || navigator.userLanguage;
 
     let trenutniJezik = "";
@@ -97,7 +97,7 @@ window.addEventListener("load", () => {
                 spremeni[i].innerHTML = DneviSlo[i];
             debug.style.display = "inline";
             prevedi[0].innerHTML = "IZBERITE PRIZORIŠČE:";
-            prevedi[1].innerHTML = "RADOLCA";
+            prevedi[1].innerHTML = "KINO RADOLCA";
             prevedi[2].innerHTML = "DRUGO";
             prevedi[3].innerHTML = "VSTOP PROST";
             prevedi[4].innerHTML = '<a class="no-display visually-hidden" href="https://olaii.com/event/1922/kino-bled-2022?lang=sl" target="_blank">KUPI VSTOPNICE</a>';
@@ -139,7 +139,6 @@ window.addEventListener("load", () => {
         if (lokacija == "fes") {
             $(".display").addClass("visually-hidden");
             $(".no-display").removeClass("visually-hidden");
-
         }
         else {
             $(".display").removeClass("visually-hidden");
@@ -148,6 +147,13 @@ window.addEventListener("load", () => {
 
         for (let i = 0; i < dnevi.length; i++) {
             let string = "";
+            if (data[lokacija][DneviEng[i]] == undefined)
+            {
+                dnevi[i].parentNode.style.display = "none";
+                continue;
+            }
+            if (dnevi[i].parentNode.style.display == "none")
+                dnevi[i].parentNode.style.display = "block";
             for (let k = 0; k < data[lokacija][DneviEng[i]].length; k++) {
                 string += `<h3>${data[lokacija][DneviEng[i]][k].naslov}</h3><p>`;
                 for (let j = 0; j < data[lokacija][DneviEng[i]][k].vrstice.length; j++) {

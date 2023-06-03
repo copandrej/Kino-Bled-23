@@ -35,11 +35,13 @@ window.addEventListener("load", () => {
     const debug = document.getElementById("debug");
     const dnevi = document.getElementsByClassName("skri");
 
+
     // Dnevi v tednu + jezik browserja
     const DneviSlo = ["PONEDELJEK", "TOREK", "SREDA", "&#268ETRTEK", "PETEK", "SOBOTA", "NEDELJA", "PONEDELJEK 25"];
     const DneviEng = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY", "MONDAY 25."];
-    const userLang = navigator.language || navigator.userLanguage;
+    let userLang = navigator.language || navigator.userLanguage;
 
+    userLang = "sl"; // temp fixed language
     let trenutniJezik = "";
     let trenutnaLokacija = "park";
     $(".park").css("color", "rgba(42, 53, 96, 0.9)");

@@ -41,7 +41,7 @@ slJson = {
     //     ]
     //   }
     // ],
-    "SATURDAY": [
+    "FRIDAY": [
       {
         "naslov": "21:30",
         "vrstice": [
@@ -49,7 +49,7 @@ slJson = {
         ]
       }
     ],
-    "SUNDAY": [
+    "SATURDAY": [
       {
         "naslov": "21:30",
         "vrstice": [
@@ -57,7 +57,7 @@ slJson = {
         ]
       }
     ],
-    "MONDAY 25.": [
+    "SUNDAY": [
       {
         "naslov": "21:30",
         "vrstice": [

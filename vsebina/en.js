@@ -41,7 +41,7 @@ enJson = {
     //     ]
     //   }
     // ],
-    "SATURDAY": [
+    "FRIDAY": [
       {
         "naslov": "21:30",
         "vrstice": [
@@ -49,7 +49,7 @@ enJson = {
         ]
       }
     ],
-    "SUNDAY": [
+    "SATURDAY": [
       {
         "naslov": "21:30",
         "vrstice": [
@@ -57,7 +57,7 @@ enJson = {
         ]
       }
     ],
-    "MONDAY 25.": [
+    "SUNDAY": [
       {
         "naslov": "21:30",
         "vrstice": [

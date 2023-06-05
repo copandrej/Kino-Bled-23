@@ -37,8 +37,8 @@ window.addEventListener("load", () => {
 
 
     // Dnevi v tednu + jezik browserja
-    const DneviSlo = ["PONEDELJEK", "TOREK", "SREDA", "&#268ETRTEK", "PETEK", "SOBOTA", "NEDELJA", "PONEDELJEK 25"];
-    const DneviEng = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY", "MONDAY 25."];
+    const DneviSlo = ["PONEDELJEK", "TOREK", "SREDA", "&#268ETRTEK", "PETEK", "SOBOTA", "NEDELJA"];
+    const DneviEng = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"];
     let userLang = navigator.language || navigator.userLanguage;
 
     userLang = "sl"; // temp fixed language

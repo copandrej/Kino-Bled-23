@@ -98,13 +98,14 @@ window.addEventListener("load", () => {
             for (let i = 0; i < spremeni.length; i++)
                 spremeni[i].innerHTML = DneviSlo[i];
             debug.style.display = "inline";
-            prevedi[0].innerHTML = "IZBERITE PRIZORIŠČE:";
-            prevedi[1].innerHTML = "KINO RADOLCA";
-            prevedi[2].innerHTML = "DRUGO";
-            prevedi[3].innerHTML = "VSTOP PROST";
-            prevedi[4].innerHTML = '<a class="no-display visually-hidden" href="https://olaii.com/event/1922/kino-bled-2022?lang=sl" target="_blank">KUPI VSTOPNICE</a>';
-            prevedi[5].innerHTML = "PI&#352ITE NAM";
-            prevedi[6].innerHTML = '<a href="sponzorji">SPONZORJI FESTIVALA</a>';
+            prevedi[0].innerHTML = "OTVORITEV";
+            prevedi[1].innerHTML = "IZBERITE PRIZORIŠČE:";
+            prevedi[2].innerHTML = "KINO RADOLCA";
+            prevedi[3].innerHTML = "DRUGO";
+            prevedi[4].innerHTML = "VSTOP PROST";
+            prevedi[5].innerHTML = '<a class="no-display visually-hidden" href="https://olaii.com/event/1922/kino-bled-2022?lang=sl" target="_blank">KUPI VSTOPNICE</a>';
+            prevedi[6].innerHTML = "PI&#352ITE NAM";
+            prevedi[7].innerHTML = '<a href="sponzorji">SPONZORJI FESTIVALA</a>';
             vsebina(trenutniJezik, trenutnaLokacija);
 
         } else {
@@ -113,13 +114,14 @@ window.addEventListener("load", () => {
             for (let i = 0; i < spremeni.length; i++)
                 spremeni[i].innerHTML = DneviEng[i];
             debug.style.display = "inline";
-            prevedi[0].innerHTML = "SELECT THE VENUE:";
-            prevedi[1].innerHTML = "KINO RADOLCA";
-            prevedi[2].innerHTML = "OTHER";
-            prevedi[3].innerHTML = "FREE ENTRY";
-            prevedi[4].innerHTML = '<a class="no-display visually-hidden" href="https://olaii.com/event/1922/kino-bled-2022?lang=en" target="_blank">BUY TICKETS</a>';
-            prevedi[5].innerHTML = "EMAIL US";
-            prevedi[6].innerHTML = '<a href="sponsors">FESTIVAL SPONSORS</a>';
+            prevedi[0].innerHTML = "OPENING";
+            prevedi[2].innerHTML = "SELECT THE VENUE:";
+            prevedi[3].innerHTML = "KINO RADOLCA";
+            prevedi[4].innerHTML = "OTHER";
+            prevedi[5].innerHTML = "FREE ENTRY";
+            prevedi[6].innerHTML = '<a class="no-display visually-hidden" href="https://olaii.com/event/1922/kino-bled-2022?lang=en" target="_blank">BUY TICKETS</a>';
+            prevedi[7].innerHTML = "EMAIL US";
+            prevedi[8].innerHTML = '<a href="sponsors">FESTIVAL SPONSORS</a>';
             vsebina(trenutniJezik, trenutnaLokacija);
         }
     }

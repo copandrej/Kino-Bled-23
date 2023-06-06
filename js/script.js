@@ -8,11 +8,11 @@ function zapri(el) {
     }
 
     if (el.clientHeight >= 45) {
-        el.childNodes[1].childNodes[1].style.color = '#ffebc6';
+        el.childNodes[1].childNodes[1].style.color = '#edc0b6';
         el.style.height = "41px";
         temp = null;
     } else {
-        el.childNodes[1].childNodes[1].style.color = 'rgba(42, 53, 96, 0.9)';
+        el.childNodes[1].childNodes[1].style.color = 'rgb(42, 53, 96)';
         el.style.height = (el.childNodes[3].clientHeight + 41).toString() + "px";
         temp = el;
     }
@@ -44,7 +44,7 @@ window.addEventListener("load", () => {
     userLang = "sl"; // temp fixed language
     let trenutniJezik = "";
     let trenutnaLokacija = "park";
-    $(".park").css("color", "rgba(42, 53, 96, 0.9)");
+    $(".park").css("color", "rgb(42, 53, 96)");
 
     if (userLang == "sl" && trenutniJezik != "sl")
         spremembaJezika("sl");
@@ -63,28 +63,28 @@ window.addEventListener("load", () => {
     //gumbi za lokacijo
     $(".fes").click(() => {
         resetColor();
-        $(".fes").css("color", "rgba(42, 53, 96, 0.9)");
+        $(".fes").css("color", "rgb(42, 53, 96)");
         trenutnaLokacija = "fes";
         vsebina(trenutniJezik, trenutnaLokacija);
     });
     $(".itc").click(() => {
         resetColor();
-        $(".itc").css("color", "rgba(42, 53, 96, 0.9)");
+        $(".itc").css("color", "rgb(42, 53, 96)");
         trenutnaLokacija = "itc";
         vsebina(trenutniJezik, trenutnaLokacija);
     });
     $(".park").click(() => {
         resetColor();
         trenutnaLokacija = "park";
-        $(".park").css("color", "rgba(42, 53, 96, 0.9)");
+        $(".park").css("color", "rgb(42, 53, 96)");
         vsebina(trenutniJezik, trenutnaLokacija);
     });
 
     /*popucaj barva pritisnjenih gumbov*/
     function resetColor() {
-        $(".fes").css("color", "#ffebc6");
-        $(".itc").css("color", "#ffebc6");
-        $(".park").css("color", "#ffebc6");
+        $(".fes").css("color", "#edc0b6");
+        $(".itc").css("color", "#edc0b6");
+        $(".park").css("color", "#edc0b6");
     }
 
     /**najprej spemeni dneve v tednu, da je to čim hitreje nato vsebina() spremeni še program -> function vsebina(). 
@@ -103,7 +103,7 @@ window.addEventListener("load", () => {
             prevedi[2].innerHTML = "KINO RADOLCA";
             prevedi[3].innerHTML = "DRUGO";
             prevedi[4].innerHTML = "VSTOP PROST";
-            prevedi[5].innerHTML = '<a class="no-display visually-hidden" href="https://olaii.com/event/1922/kino-bled-2022?lang=sl" target="_blank">KUPI VSTOPNICE</a>';
+            prevedi[5].innerHTML = '<a class="no-display visually-hidden" href="https://ld-radovljica.kupikarto.si" target="_blank">KUPI VSTOPNICE</a>';
             prevedi[6].innerHTML = "PI&#352ITE NAM";
             // prevedi[7].innerHTML = '<a href="sponzorji">SPONZORJI FESTIVALA</a>';
             vsebina(trenutniJezik, trenutnaLokacija);
@@ -119,7 +119,7 @@ window.addEventListener("load", () => {
             prevedi[2].innerHTML = "KINO RADOLCA";
             prevedi[3].innerHTML = "OTHER";
             prevedi[4].innerHTML = "FREE ENTRY";
-            prevedi[5].innerHTML = '<a class="no-display visually-hidden" href="https://olaii.com/event/1922/kino-bled-2022?lang=en" target="_blank">BUY TICKETS</a>';
+            prevedi[5].innerHTML = '<a class="no-display visually-hidden" href="https://ld-radovljica.kupikarto.si" target="_blank">BUY TICKETS</a>';
             prevedi[6].innerHTML = "EMAIL US";
             // prevedi[8].innerHTML = '<a href="sponsors">FESTIVAL SPONSORS</a>';
             vsebina(trenutniJezik, trenutnaLokacija);

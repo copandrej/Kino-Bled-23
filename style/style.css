@@ -13,12 +13,13 @@ html {
 /*vars*/
 :root {
     --mainBgColor: #d35245;
-    --mainTxtColor: #ffebc6;
-    --hoverColor: rgba(42, 53, 96, 0.9);
+    --mainTxtColor: #edc0b6;
+    --hoverColor: rgb(42, 53, 96);
     --transitioni: 80ms;
 }
+/* #edc0b6 -> #ffebc6 */
 body {
-    background-image: url("../img/ozadje.png");
+    background-image: url("../img/ozadje.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

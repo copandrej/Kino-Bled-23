@@ -27,7 +27,7 @@ slJson = {
     ],
     "THURSDAY": [
       {
-        "naslov": "19:00",
+        "naslov": "21:30",
         "vrstice": [
           "<a href='sl/plavalec'>Plavalec (95')</a>"
         ]

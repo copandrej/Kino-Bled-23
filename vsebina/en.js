@@ -5,7 +5,7 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a href='sl/arnold'>Arnold Rikli - Voda, zrak, sonce (58’)</a>"
+          "<a href='en/arnold'>Arnold Rikli - Water, air, sun (58’)</a>"
         ]
       }
     ],
@@ -13,7 +13,7 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a href='sl/zanox'>Zanox – Tveganja in stranski učinki (88')</a>"
+          "<a href='en/zanox'>Zanox - Risks and side effects (88')</a>"
         ]
       }
     ],
@@ -21,15 +21,15 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a href='sl/posoncu'>Po soncu (98')</a>"
+          "<a href='en/posoncu'>After sun (98')</a>"
         ]
       }
     ],
     "THURSDAY": [
       {
-        "naslov": "19:00",
+        "naslov": "21:30",
         "vrstice": [
-          "<a href='sl/plavalec'>Plavalec (95')</a>"
+          "<a href='en/plavalec'>The Swimmer (95')</a>"
         ]
       }
     ],
@@ -45,7 +45,7 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a href='sl/jezdeca'>Jezdeca (117')</a>"
+          "<a href='en/jezdeca'>Riders (117')</a>"
         ]
       }
     ],
@@ -53,7 +53,7 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a href='sl/trikotnik'>Trikotnik žalosti (147’)</a>"
+          "<a href='en/trikotnik'>Triangle of Sadness (147’)</a>"
         ]
       }
     ],
@@ -61,7 +61,7 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a href='sl/pero'>Pero (99')</a>"
+          "<a href='en/pero'>Pero (99')</a>"
         ]
       }
     ]
@@ -72,13 +72,13 @@ enJson = {
       {
         "naslov": "18:00",
         "vrstice": [
-          "<a href='sl/trohnenje'>Trohnenje 2022 (56’)</a>"
+          "<a href='en/trohnenje'>Rotting 2022 (56’)</a>"
         ]
       },
       {
         "naslov": "20:00",
         "vrstice": [
-          "<a href='sl/nasdom'>Naš dom(87’)</a>"
+          "<a href='en/nasdom'>Utama (87’)</a>"
         ]
       }
     ],
@@ -86,7 +86,7 @@ enJson = {
       {
         "naslov": "20:00",
         "vrstice": [
-          "<a href='sl/najsrecnejsi'>Najsrečnejši človek na svetu (95’)</a>"
+          "<a href='en/najsrecnejsi'>Happiest Man in the World (95’)</a>"
         ]
       }
     ],
@@ -94,13 +94,13 @@ enJson = {
       {
         "naslov": "18:00",
         "vrstice": [
-          "<a href='sl/tihodekle'>Tiho dekle (95’)</a>"
+          "<a href='en/tihodekle'>Quiet Girl (95’)</a>"
         ]
       },
       {
         "naslov": "20:00",
         "vrstice": [
-          "<a href='sl/valov'>Dan velikih valov (120')</a>"
+          "<a href='en/valov'>Big Wednesday (120')</a>"
         ]
       }
     ],
@@ -108,13 +108,13 @@ enJson = {
       {
         "naslov": "18:00",
         "vrstice": [
-          "<a href='sl/tednov'>Šest tednov (95’)</a>"
+          "<a href='en/tednov'>Six Weeks (95’)</a>"
         ]
       },
       {
         "naslov": "20:00",
         "vrstice": [
-          "<a href='sl/zanox'>Zanox – Tveganja in stranski učinki(88’)</a>"
+          "<a href='en/zanox'>Zanox - Risks and Side Effects (88’)</a>"
         ]
       }
     // ],

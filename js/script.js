@@ -25,16 +25,11 @@ function poravnaj(el) {
 
 
 window.addEventListener("load", () => {
-    /** DOM 
-     * debug pred spremembo skrije Četrtek ker težave z Č-jem, 
-     * po spremembi displaya nazaj
-     * safari -> realno to sploh ne pomaga sadge
-    */
+
     const spremeni = document.getElementsByClassName("dan");
     const prevedi = document.getElementsByClassName("prevedi");
     const debug = document.getElementById("debug");
     const dnevi = document.getElementsByClassName("skri");
-
 
     // Dnevi v tednu + jezik browserja
     const DneviSlo = ["PONEDELJEK", "TOREK", "SREDA", "&#268ETRTEK", "PETEK", "SOBOTA", "NEDELJA"];
@@ -42,6 +37,12 @@ window.addEventListener("load", () => {
     let userLang = navigator.language || navigator.userLanguage;
 
     userLang = "sl"; // temp fixed language
+
+    // Get language parameter from URL ?lang, if it exists
+    const urlParams = new URLSearchParams(window.location.search);
+    const lang = urlParams.get('lang');
+    if (lang == "en") userLang = "en";
+
     let trenutniJezik = "";
     let trenutnaLokacija = "park";
     $(".park").css("color", "rgb(42, 53, 96)");
@@ -99,12 +100,13 @@ window.addEventListener("load", () => {
                 spremeni[i].innerHTML = DneviSlo[i];
             debug.style.display = "inline";
             prevedi[0].innerHTML = "OTVORITEV";
-            prevedi[1].innerHTML = "IZBERITE PRIZORIŠČE:";
-            prevedi[2].innerHTML = "KINO RADOLCA";
-            prevedi[3].innerHTML = "DRUGO";
-            prevedi[4].innerHTML = "VSTOP PROST";
-            prevedi[5].innerHTML = '<a class="no-display visually-hidden" href="https://ld-radovljica.kupikarto.si" target="_blank">KUPI VSTOPNICE</a>';
-            prevedi[6].innerHTML = "PI&#352ITE NAM";
+            prevedi[1].innerHTML = "<a href='sl/vesna'>Vesna (95’)</a>";
+            prevedi[2].innerHTML = "IZBERITE PRIZORIŠČE:";
+            prevedi[3].innerHTML = "KINO RADOLCA";
+            prevedi[4].innerHTML = "DRUGO";
+            prevedi[5].innerHTML = "VSTOP PROST";
+            prevedi[6].innerHTML = '<a class="no-display visually-hidden" href="https://ld-radovljica.kupikarto.si" target="_blank">KUPI VSTOPNICE</a>';
+            prevedi[7].innerHTML = "PI&#352ITE NAM";
             // prevedi[7].innerHTML = '<a href="sponzorji">SPONZORJI FESTIVALA</a>';
             vsebina(trenutniJezik, trenutnaLokacija);
 
@@ -115,12 +117,13 @@ window.addEventListener("load", () => {
                 spremeni[i].innerHTML = DneviEng[i];
             debug.style.display = "inline";
             prevedi[0].innerHTML = "OPENING";
-            prevedi[1].innerHTML = "SELECT THE VENUE:";
-            prevedi[2].innerHTML = "KINO RADOLCA";
-            prevedi[3].innerHTML = "OTHER";
-            prevedi[4].innerHTML = "FREE ENTRY";
-            prevedi[5].innerHTML = '<a class="no-display visually-hidden" href="https://ld-radovljica.kupikarto.si" target="_blank">BUY TICKETS</a>';
-            prevedi[6].innerHTML = "EMAIL US";
+            prevedi[1].innerHTML = "<a href='en/vesna'>Vesna (95’)</a>";
+            prevedi[2].innerHTML = "SELECT THE VENUE:";
+            prevedi[3].innerHTML = "KINO RADOLCA";
+            prevedi[4].innerHTML = "OTHER";
+            prevedi[5].innerHTML = "FREE ENTRY";
+            prevedi[6].innerHTML = '<a class="no-display visually-hidden" href="https://ld-radovljica.kupikarto.si" target="_blank">BUY TICKETS</a>';
+            prevedi[7].innerHTML = "EMAIL US";
             // prevedi[8].innerHTML = '<a href="sponsors">FESTIVAL SPONSORS</a>';
             vsebina(trenutniJezik, trenutnaLokacija);
         }

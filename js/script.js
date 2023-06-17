@@ -32,8 +32,8 @@ window.addEventListener("load", () => {
     const dnevi = document.getElementsByClassName("skri");
 
     // Dnevi v tednu + jezik browserja
-    const DneviSlo = ["PONEDELJEK", "TOREK", "SREDA", "&#268ETRTEK", "PETEK", "SOBOTA", "NEDELJA"];
-    const DneviEng = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"];
+    const DneviSlo = ["NEDELJA 18. 6.", "PONEDELJEK", "TOREK", "SREDA", "&#268ETRTEK", "PETEK", "SOBOTA", "NEDELJA"];
+    const DneviEng = ["SUNDAY 18. 6.", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"];
     let userLang = navigator.language || navigator.userLanguage;
 
     userLang = "sl"; // temp fixed language

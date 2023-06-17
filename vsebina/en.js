@@ -5,14 +5,23 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
+          "<a href='en/kava'>Chirimbar Coffee (12')</a>",
+          "<a href='en/zlatorog'>Legend of the Golden Horn (14')</a>",
           "<a href='en/arnold'>Arnold Rikli - Water, air, sun (58’)</a>"
         ]
       }
     ],
     "TUESDAY": [
       {
+        "naslov": "19:00",
+        "vrstice": [
+          "CONCERT - Martin pečar trio"
+        ]
+      },
+      {
         "naslov": "21:30",
         "vrstice": [
+          "<a href='en/stroj'>Washing Machine (7')</a>",
           "<a href='en/zanox'>Zanox - Risks and side effects (88')</a>"
         ]
       }
@@ -114,7 +123,7 @@ enJson = {
       {
         "naslov": "20:00",
         "vrstice": [
-          "<a href='en/zanox'>Zanox - Risks and Side Effects (88’)</a>"
+          "<a href='en/zanox-rad'>Zanox - Risks and Side Effects (88’)</a>"
         ]
       }
     // ],
@@ -145,102 +154,114 @@ enJson = {
   },
   "itc":
   {
+    "SUNDAY 18. 6.": [
+      {
+        "naslov": "20:00",
+        "vrstice": [
+          "<a href='en/45min'>45 minutes</a>",
+          "<a href='en/monalisa'>Mona Lisa in Krvava luna</a>",
+          "@MGC Bled"
+        ]
+      }
+    ],
     "MONDAY": [
       {
-        "naslov": "TO-DO",
+        "naslov": "18:00",
         "vrstice": [
-          "TO-DO"
+          "Otvoritev razstave Iluzija drobcev",
+          "Nagovor ob otvoritvi in pogostitev",
+          "@MGC Bled"
         ]
       }
-    ],
-    "TUESDAY": [
-      {
-        "naslov": "TO-DO",
-        "vrstice": [
-          "TO-DO"
-        ]
-      },
-      {
-        "naslov": "TO-DO",
-        "vrstice": [
-          "<a href='https://www.imdb.com/title/tt8151874/'>Honey Boy (94')</a>"
-        ]
-      }
-    ],
-    "WEDNESDAY": [
-      {
-        "naslov": "TO-DO",
-        "vrstice": [
-          "Firefly Club (7’)",
-          "<ahref='https://www.imdb.com/title/tt3521126/'>The Disaster Artist (104’)</a>"
-        ]
-      }
-    ],
-    "THURSDAY": [
-      {
-        "naslov": "TO-DO",
-        "vrstice": [
-          "<a href='https://www.facebook.com/events/546848996416533/'>travelogue: Greece</a>",
-          "<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6'>@Infocenter Triglavska roža Bled</a>"
-        ]
-      }
-    ],
-    "FRIDAY": [
-      {
-        "naslov": "TO-DO",
-        "vrstice": [
-          "<a href='https://www.bled.si/en/events/2021090112071356/guided-tour-of-bled'>guided tour of Bled</a>",
-          "<a href='https://goo.gl/maps/sep7vTan7DtZj3bx5'>@Tourist information centre</a>"
-        ]
-      },
-      {
-        "naslov": "TO-DO",
-        "vrstice": [
-          "<a href='https://www.facebook.com/events/183328980546508/'>workshop: Physiolosophy</a>"
-        ]
-      },
-      {
-        "naslov": "TO-DO",
-        "vrstice": [
-          "<a href='https://www.imdb.com/title/tt10288566/'>Another Round (117’)</a>"
-        ]
-      },
-      {
-        "naslov": "TO-DO",
-        "vrstice": [
-          "<a href='https://www.imdb.com/title/tt8359848/'>Climax (96’)</a>"
-        ]
-      }
-    ],
-    "SATURDAY": [
-      {
-        "naslov": "TO-DO",
-        "vrstice": [
-          "<a href='https://www.facebook.com/events/402498801257873/'>debate: Me, you and us in a relationship</a>",
-          "<a href='https://goo.gl/maps/VeBPAY4QCmNjsc5q6'>@Tavci Vegan Cafe</a>"
-        ]
-      },
-      {
-        "naslov": "TO-DO",
-        "vrstice": [
-          "Easter (7’)",
-          "<a href='https://www.imdb.com/title/tt5805752/?ref_=fn_al_tt_1'>Brigsby Bear (97’)</a>"
-        ]
-      }
-    ],
-    "SUNDAY": [
-      {
-        "naslov": "TO-DO",
-        "vrstice": [
-          "festival opening"
-        ]
-      },
-      {
-        "naslov": "TO-DO",
-        "vrstice": [
-          "<a href='https://www.imdb.com/title/tt8151874/'>Honey Boy (94')</a>"
-        ]
-      }
-    ]
+    // ],
+    // "TUESDAY": [
+    //   {
+    //     "naslov": "TO-DO",
+    //     "vrstice": [
+    //       "TO-DO"
+    //     ]
+    //   },
+    //   {
+    //     "naslov": "TO-DO",
+    //     "vrstice": [
+    //       "<a href='https://www.imdb.com/title/tt8151874/'>Honey Boy (94')</a>"
+    //     ]
+    //   }
+    // ],
+    // "WEDNESDAY": [
+    //   {
+    //     "naslov": "TO-DO",
+    //     "vrstice": [
+    //       "Firefly Club (7’)",
+    //       "<ahref='https://www.imdb.com/title/tt3521126/'>The Disaster Artist (104’)</a>"
+    //     ]
+    //   }
+    // ],
+    // "THURSDAY": [
+    //   {
+    //     "naslov": "TO-DO",
+    //     "vrstice": [
+    //       "<a href='https://www.facebook.com/events/546848996416533/'>travelogue: Greece</a>",
+    //       "<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6'>@Infocenter Triglavska roža Bled</a>"
+    //     ]
+    //   }
+    // ],
+    // "FRIDAY": [
+    //   {
+    //     "naslov": "TO-DO",
+    //     "vrstice": [
+    //       "<a href='https://www.bled.si/en/events/2021090112071356/guided-tour-of-bled'>guided tour of Bled</a>",
+    //       "<a href='https://goo.gl/maps/sep7vTan7DtZj3bx5'>@Tourist information centre</a>"
+    //     ]
+    //   },
+    //   {
+    //     "naslov": "TO-DO",
+    //     "vrstice": [
+    //       "<a href='https://www.facebook.com/events/183328980546508/'>workshop: Physiolosophy</a>"
+    //     ]
+    //   },
+    //   {
+    //     "naslov": "TO-DO",
+    //     "vrstice": [
+    //       "<a href='https://www.imdb.com/title/tt10288566/'>Another Round (117’)</a>"
+    //     ]
+    //   },
+    //   {
+    //     "naslov": "TO-DO",
+    //     "vrstice": [
+    //       "<a href='https://www.imdb.com/title/tt8359848/'>Climax (96’)</a>"
+    //     ]
+    //   }
+    // ],
+    // "SATURDAY": [
+    //   {
+    //     "naslov": "TO-DO",
+    //     "vrstice": [
+    //       "<a href='https://www.facebook.com/events/402498801257873/'>debate: Me, you and us in a relationship</a>",
+    //       "<a href='https://goo.gl/maps/VeBPAY4QCmNjsc5q6'>@Tavci Vegan Cafe</a>"
+    //     ]
+    //   },
+    //   {
+    //     "naslov": "TO-DO",
+    //     "vrstice": [
+    //       "Easter (7’)",
+    //       "<a href='https://www.imdb.com/title/tt5805752/?ref_=fn_al_tt_1'>Brigsby Bear (97’)</a>"
+    //     ]
+    //   }
+    // ],
+    // "SUNDAY": [
+    //   {
+    //     "naslov": "TO-DO",
+    //     "vrstice": [
+    //       "festival opening"
+    //     ]
+    //   },
+    //   {
+    //     "naslov": "TO-DO",
+    //     "vrstice": [
+    //       "<a href='https://www.imdb.com/title/tt8151874/'>Honey Boy (94')</a>"
+    //     ]
+    //   }
+   ]
   }
 }

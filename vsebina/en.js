@@ -7,7 +7,7 @@ enJson = {
         "vrstice": [
           "<a href='en/kava'>Chirimbar Coffee (12')</a>",
           "<a href='en/zlatorog'>Legend of the Golden Horn (14')</a>",
-          "<a href='en/arnold'>Arnold Rikli - Water, air, sun (58’)</a>"
+          "<a href='en/arnold'>Arnold Rikli - Water, Air, Sun (58’)</a>"
         ]
       }
     ],
@@ -22,7 +22,7 @@ enJson = {
         "naslov": "21:30",
         "vrstice": [
           "<a href='en/stroj'>Washing Machine (7')</a>",
-          "<a href='en/zanox'>Zanox - Risks and side effects (88')</a>"
+          "<a href='en/zanox'>Zanox - Risks and Side Effects (88')</a>"
         ]
       }
     ],
@@ -30,7 +30,7 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a href='en/posoncu'>After sun (98')</a>"
+          "<a href='en/posoncu'>After Sun (98')</a>"
         ]
       }
     ],
@@ -158,8 +158,8 @@ enJson = {
       {
         "naslov": "20:00",
         "vrstice": [
-          "<a href='en/45min'>45 minutes</a>",
-          "<a href='en/monalisa'>Mona Lisa in Krvava luna</a>",
+          "<a href='en/45min'>45 Minutes</a>",
+          "<a href='en/monalisa'>Mona Lisa and the Blood Moon</a>",
           "@MGC Bled"
         ]
       }

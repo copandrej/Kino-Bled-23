@@ -45,7 +45,7 @@ window.addEventListener("load", () => {
 
     let trenutniJezik = "";
     let trenutnaLokacija = "park";
-    $(".park").css("color", "rgb(42, 53, 96)");
+    $(".park").min.css("color", "rgb(42, 53, 96)");
 
     if (userLang == "sl" && trenutniJezik != "sl")
         spremembaJezika("sl");
@@ -57,35 +57,35 @@ window.addEventListener("load", () => {
     $(".eng").click(() => { spremembaJezika("en"); });
 
     $(".down").click(() => { 
-        $(".arrow").css("border-color", "transparent");
+        $(".arrow").min.css("border-color", "transparent");
      });
 
 
     //gumbi za lokacijo
     $(".fes").click(() => {
         resetColor();
-        $(".fes").css("color", "rgb(42, 53, 96)");
+        $(".fes").min.css("color", "rgb(42, 53, 96)");
         trenutnaLokacija = "fes";
         vsebina(trenutniJezik, trenutnaLokacija);
     });
     $(".itc").click(() => {
         resetColor();
-        $(".itc").css("color", "rgb(42, 53, 96)");
+        $(".itc").min.css("color", "rgb(42, 53, 96)");
         trenutnaLokacija = "itc";
         vsebina(trenutniJezik, trenutnaLokacija);
     });
     $(".park").click(() => {
         resetColor();
         trenutnaLokacija = "park";
-        $(".park").css("color", "rgb(42, 53, 96)");
+        $(".park").min.css("color", "rgb(42, 53, 96)");
         vsebina(trenutniJezik, trenutnaLokacija);
     });
 
     /*popucaj barva pritisnjenih gumbov*/
     function resetColor() {
-        $(".fes").css("color", "#edc0b6");
-        $(".itc").css("color", "#edc0b6");
-        $(".park").css("color", "#edc0b6");
+        $(".fes").min.css("color", "#edc0b6");
+        $(".itc").min.css("color", "#edc0b6");
+        $(".park").min.css("color", "#edc0b6");
     }
 
     /**najprej spemeni dneve v tednu, da je to čim hitreje nato vsebina() spremeni še program -> function vsebina(). 

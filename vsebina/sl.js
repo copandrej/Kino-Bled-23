@@ -42,14 +42,6 @@ slJson = {
         ]
       }
     ],
-    // "FRIDAY": [
-    //   {
-    //     "naslov": "",
-    //     "vrstice": [
-    //       ""
-    //     ]
-    //   }
-    // ],
     "FRIDAY": [
       {
         "naslov": "21:30",
@@ -126,30 +118,6 @@ slJson = {
           "<a href='sl/zanox-rad'>Zanox – Tveganja in stranski učinki(88’)</a>"
         ]
       }
-    // ],
-    // "FRIDAY": [
-    //   {
-    //     "naslov": "",
-    //     "vrstice": [
-    //       ""
-    //     ]
-    //   }
-    // ],
-    // "SATURDAY": [
-    //   {
-    //     "naslov": "",
-    //     "vrstice": [
-    //       ""
-    //     ]
-    //   }
-    // ],
-    // "SUNDAY": [
-    //   {
-    //     "naslov": "",
-    //     "vrstice": [
-    //       ""
-    //     ]
-    //   }
     ]
   },
   "itc":

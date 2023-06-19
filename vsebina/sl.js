@@ -55,13 +55,13 @@ slJson = {
       {
       "naslov": "19:00",
       "vrstice": [
-        "<a href='el/samuel'>Koncert - Samuel Blues</a>"
+        "<a href='sl/samuel'>Koncert - Samuel Blues</a>"
       ]
     },
     {
         "naslov": "21:30",
         "vrstice": [
-          "<a href='el/foam'>The Foam of the Lion (18')</a>",
+          "<a href='sl/foam'>The Foam of the Lion (18')</a>",
           "<a href='sl/jezdeca'>Jezdeca (117')</a>"
         ]
       }

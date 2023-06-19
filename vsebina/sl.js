@@ -15,7 +15,7 @@ slJson = {
       {
         "naslov": "19:00",
         "vrstice": [
-          "KONCERT - Martin pečar trio"
+          "<a href='sl/martin'>KONCERT - Martin pečar trio</a>"
         ]
       },
       {
@@ -28,8 +28,15 @@ slJson = {
     ],
     "WEDNESDAY": [
       {
+        "naslov": "19:00",
+        "vrstice": [
+          "<a href='sl/soup'>Koncert - Pay for Soup</a>"
+        ]
+      },
+      {
         "naslov": "21:30",
         "vrstice": [
+          "<a href='sl/edi'>Edi (14')</a>",
           "<a href='sl/posoncu'>Po soncu (98')</a>"
         ]
       }
@@ -38,22 +45,38 @@ slJson = {
       {
         "naslov": "21:30",
         "vrstice": [
+          "<a href='sl/pesem'>Pesem Kitov (3')</a>",
+          "<a href='sl/perje'>Perje z vonjem morja (3')</a>",
           "<a href='sl/plavalec'>Plavalec (95')</a>"
         ]
       }
     ],
     "FRIDAY": [
       {
+      "naslov": "19:00",
+      "vrstice": [
+        "<a href='el/samuel'>Koncert - Samuel Blues</a>"
+      ]
+    },
+    {
         "naslov": "21:30",
         "vrstice": [
+          "<a href='el/jezdeca'>The Foam of the Lion (18')</a>",
           "<a href='sl/jezdeca'>Jezdeca (117')</a>"
         ]
       }
     ],
     "SATURDAY": [
       {
+        "naslov": "19:00",
+        "vrstice": [
+          "<a href='sl/standup'>Stand up</a>"
+        ]
+      },
+      {
         "naslov": "21:30",
         "vrstice": [
+          "<a href='sl/reallove'>Real Love Baby (2')</a>",
           "<a href='sl/trikotnik'>Trikotnik žalosti (147’)</a>"
         ]
       }
@@ -62,6 +85,7 @@ slJson = {
       {
         "naslov": "21:30",
         "vrstice": [
+          "<a href='sl/atimenevidis'>A ti mene vidiš? (15')</a>",
           "<a href='sl/pero'>Pero (99')</a>"
         ]
       }
@@ -87,6 +111,7 @@ slJson = {
       {
         "naslov": "20:00",
         "vrstice": [
+          "<a href='sl/pogodba'>Pogodba ali kako sem najel gluhoslepega morilca (6’)</a>",
           "<a href='sl/najsrecnejsi'>Najsrečnejši človek na svetu (95’)</a>"
         ]
       }
@@ -141,6 +166,123 @@ slJson = {
           "@MGC Bled"
         ]
       }
-   ]
+   ],
+   "WEDNESDAY": [
+    {
+      "naslov": "18:00",
+      "vrstice": [
+        "<a href='sl/potovanje'>Čarobno potovanje na luno (98')</a>",
+        "@MGC Bled"
+      ],
+      "naslov": "20:00",
+      "vrstice": [
+        "<a href='sl/moonskin'>Moonskin Fever (18')</a>",
+        "<a href='sl/valley'>Valley of Light (65')</a>",
+        "@MGC Bled"
+      ]
+    }
+ ],
+ "THURSDAY": [
+  {
+    "naslov": "17:00",
+    "vrstice": [
+      "<a href='sl/naravoljubni'>Sklop kratkih naravoljubnih filmov o vodi</a>",
+      "@MGC Bled"
+    ]
+  },
+  {
+    "naslov": "19:00",
+    "vrstice": [
+      "<a href='sl/babajanja'>Babajanja (14')</a>",
+      "<a href='sl/medeni'>Medeni film (82')</a>",
+      "@MGC Bled"
+    ]
   }
+],
+"FRIDAY": [
+ {
+   "naslov": "19:00",
+   "vrstice": [
+     "<a href='sl/vrtiljak'>Vrtiljak v dežju (3')</a>",
+     "<a href='sl/530'>5 / 3 / 0 (15')</a>",
+     "@MGC Bled"
+   ]
+ },
+ {
+   "naslov": "19:20",
+   "vrstice": [
+     "<a href='sl/vrtinec'>Vrtinec (99')</a>",
+     "@MGC Bled"
+   ]
+ }
+],
+"SATURDAY": [
+ {
+   "naslov": "10:00",
+   "vrstice": [
+     "<a href='sl/kiti'>Kiti, varuhi planeta (82')</a>",
+     "@MGC Bled"
+   ]
+ },
+ {
+   "naslov": "16:00",
+   "vrstice": [
+     "<a href='sl/speaking'>Speaking of Pastors (7')</a>",
+     "<a href='sl/beyond'>The Beyond (10')</a>",
+     "@MGC Bled"
+   ]
+ },
+ {
+   "naslov": "16:20",
+   "vrstice": [
+     "<a href='sl/prezaposlena'>Prezaposlena (88')</a>",
+     "@MGC Bled"
+   ]
+ },
+ {
+   "naslov": "19:00",
+   "vrstice": [
+     "<a href='sl/xanon'>XAnon: The Plan To Save America (25')</a>",
+     "@MGC Bled"
+   ]
+ },
+ {
+   "naslov": "19:00",
+   "vrstice": [
+     "<a href='sl/zlocini'>Zločini prihodnosti (107')</a>",
+     "@MGC Bled"
+   ]
+ }
+],
+"SUNDAY": [
+ {
+   "naslov": "10:00",
+   "vrstice": [
+     "<a href='sl/slovenskiliterarni'>Slovenski literarni junaki (52')</a>",
+     "@MGC Bled"
+   ]
+ },
+ {
+   "naslov": "14:00",
+   "vrstice": [
+     "<a href='sl/gebliebenen'>Die Gebliebenen (30')</a>",
+     "@MGC Bled"
+   ]
+ },
+ {
+   "naslov": "16:00",
+   "vrstice": [
+     "<a href='sl/survivor'>Talking to a survivor (8')</a>",
+     "@MGC Bled"
+   ]
+ },
+ {
+   "naslov": "16:10",
+   "vrstice": [
+     "<a href='sl/poletje'>Poletje ’91 (72')</a>",
+     "@MGC Bled"
+   ]
+ }
+]
+}
 }

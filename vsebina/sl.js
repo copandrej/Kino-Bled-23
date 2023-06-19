@@ -61,7 +61,7 @@ slJson = {
     {
         "naslov": "21:30",
         "vrstice": [
-          "<a href='el/jezdeca'>The Foam of the Lion (18')</a>",
+          "<a href='el/foam'>The Foam of the Lion (18')</a>",
           "<a href='sl/jezdeca'>Jezdeca (117')</a>"
         ]
       }
@@ -152,8 +152,7 @@ slJson = {
         "naslov": "20:00",
         "vrstice": [
           "<a href='sl/45min'>45 minut (18')</a>",
-          "<a href='sl/monalisa'>Mona Lisa in Krvava luna (106')</a>",
-          "@MGC Bled"
+          "<a href='sl/monalisa'>Mona Lisa in Krvava luna (106')</a>"
         ]
       }
     ],
@@ -162,8 +161,7 @@ slJson = {
         "naslov": "18:00",
         "vrstice": [
           "Otvoritev razstave Iluzija drobcev",
-          "Nagovor ob otvoritvi in pogostitev",
-          "@MGC Bled"
+          "Nagovor ob otvoritvi in pogostitev"
         ]
       }
    ],
@@ -171,14 +169,12 @@ slJson = {
     {
       "naslov": "18:00",
       "vrstice": [
-        "<a href='sl/potovanje'>Čarobno potovanje na luno (98')</a>",
-        "@MGC Bled"
+        "<a href='sl/potovanje'>Čarobno potovanje na luno (98')</a>"
       ],
       "naslov": "20:00",
       "vrstice": [
         "<a href='sl/moonskin'>Moonskin Fever (18')</a>",
-        "<a href='sl/valley'>Valley of Light (65')</a>",
-        "@MGC Bled"
+        "<a href='sl/valley'>Valley of Light (65')</a>"
       ]
     }
  ],
@@ -186,16 +182,14 @@ slJson = {
   {
     "naslov": "17:00",
     "vrstice": [
-      "<a href='sl/naravoljubni'>Sklop kratkih naravoljubnih filmov o vodi</a>",
-      "@MGC Bled"
+      "<a href='sl/naravoljubni'>Sklop kratkih naravoljubnih filmov o vodi</a>"
     ]
   },
   {
     "naslov": "19:00",
     "vrstice": [
       "<a href='sl/babajanja'>Babajanja (14')</a>",
-      "<a href='sl/medeni'>Medeni film (82')</a>",
-      "@MGC Bled"
+      "<a href='sl/medeni'>Medeni film (82')</a>"
     ]
   }
 ],
@@ -204,15 +198,13 @@ slJson = {
    "naslov": "19:00",
    "vrstice": [
      "<a href='sl/vrtiljak'>Vrtiljak v dežju (3')</a>",
-     "<a href='sl/530'>5 / 3 / 0 (15')</a>",
-     "@MGC Bled"
+     "<a href='sl/530'>5 / 3 / 0 (15')</a>"
    ]
  },
  {
    "naslov": "19:20",
    "vrstice": [
-     "<a href='sl/vrtinec'>Vrtinec (99')</a>",
-     "@MGC Bled"
+     "<a href='sl/vrtinec'>Vrtinec (99')</a>"
    ]
  }
 ],
@@ -220,37 +212,32 @@ slJson = {
  {
    "naslov": "10:00",
    "vrstice": [
-     "<a href='sl/kiti'>Kiti, varuhi planeta (82')</a>",
-     "@MGC Bled"
+     "<a href='sl/kiti'>Kiti, varuhi planeta (82')</a>"
    ]
  },
  {
    "naslov": "16:00",
    "vrstice": [
      "<a href='sl/speaking'>Speaking of Pastors (7')</a>",
-     "<a href='sl/beyond'>The Beyond (10')</a>",
-     "@MGC Bled"
+     "<a href='sl/beyond'>The Beyond (10')</a>"
    ]
  },
  {
    "naslov": "16:20",
    "vrstice": [
-     "<a href='sl/prezaposlena'>Prezaposlena (88')</a>",
-     "@MGC Bled"
+     "<a href='sl/prezaposlena'>Prezaposlena (88')</a>"
    ]
  },
  {
    "naslov": "19:00",
    "vrstice": [
-     "<a href='sl/xanon'>XAnon: The Plan To Save America (25')</a>",
-     "@MGC Bled"
+     "<a href='sl/xanon'>XAnon: The Plan To Save America (25')</a>"
    ]
  },
  {
    "naslov": "19:00",
    "vrstice": [
-     "<a href='sl/zlocini'>Zločini prihodnosti (107')</a>",
-     "@MGC Bled"
+     "<a href='sl/zlocini'>Zločini prihodnosti (107')</a>"
    ]
  }
 ],
@@ -258,29 +245,25 @@ slJson = {
  {
    "naslov": "10:00",
    "vrstice": [
-     "<a href='sl/slovenskiliterarni'>Slovenski literarni junaki (52')</a>",
-     "@MGC Bled"
+     "<a href='sl/slovenskiliterarni'>Slovenski literarni junaki (52')</a>"
    ]
  },
  {
    "naslov": "14:00",
    "vrstice": [
-     "<a href='sl/gebliebenen'>Die Gebliebenen (30')</a>",
-     "@MGC Bled"
+     "<a href='sl/gebliebenen'>Die Gebliebenen (30')</a>"
    ]
  },
  {
    "naslov": "16:00",
    "vrstice": [
-     "<a href='sl/survivor'>Talking to a survivor (8')</a>",
-     "@MGC Bled"
+     "<a href='sl/survivor'>Talking to a survivor (8')</a>"
    ]
  },
  {
    "naslov": "16:10",
    "vrstice": [
-     "<a href='sl/poletje'>Poletje ’91 (72')</a>",
-     "@MGC Bled"
+     "<a href='sl/poletje'>Poletje ’91 (72')</a>"
    ]
  }
 ]

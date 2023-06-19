@@ -32,8 +32,8 @@ window.addEventListener("load", () => {
     const dnevi = document.getElementsByClassName("skri");
 
     // Dnevi v tednu + jezik browserja
-    const DneviSlo = ["NEDELJA 18. 6.", "PONEDELJEK", "TOREK", "SREDA", "&#268ETRTEK", "PETEK", "SOBOTA", "NEDELJA"];
-    const DneviEng = ["SUNDAY 18. 6.", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"];
+    const DneviSlo = ["PONEDELJEK", "TOREK", "SREDA", "&#268ETRTEK", "PETEK", "SOBOTA", "NEDELJA"];
+    const DneviEng = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"];
     let userLang = navigator.language || navigator.userLanguage;
 
     userLang = "sl"; // temp fixed language
@@ -45,7 +45,7 @@ window.addEventListener("load", () => {
 
     let trenutniJezik = "";
     let trenutnaLokacija = "park";
-    $(".park").min.css("color", "rgb(42, 53, 96)");
+    $(".park").css("color", "rgb(42, 53, 96)");
 
     if (userLang == "sl" && trenutniJezik != "sl")
         spremembaJezika("sl");
@@ -57,35 +57,35 @@ window.addEventListener("load", () => {
     $(".eng").click(() => { spremembaJezika("en"); });
 
     $(".down").click(() => { 
-        $(".arrow").min.css("border-color", "transparent");
+        $(".arrow").css("border-color", "transparent");
      });
 
 
     //gumbi za lokacijo
     $(".fes").click(() => {
         resetColor();
-        $(".fes").min.css("color", "rgb(42, 53, 96)");
+        $(".fes").css("color", "rgb(42, 53, 96)");
         trenutnaLokacija = "fes";
         vsebina(trenutniJezik, trenutnaLokacija);
     });
     $(".itc").click(() => {
         resetColor();
-        $(".itc").min.css("color", "rgb(42, 53, 96)");
+        $(".itc").css("color", "rgb(42, 53, 96)");
         trenutnaLokacija = "itc";
         vsebina(trenutniJezik, trenutnaLokacija);
     });
     $(".park").click(() => {
         resetColor();
         trenutnaLokacija = "park";
-        $(".park").min.css("color", "rgb(42, 53, 96)");
+        $(".park").css("color", "rgb(42, 53, 96)");
         vsebina(trenutniJezik, trenutnaLokacija);
     });
 
     /*popucaj barva pritisnjenih gumbov*/
     function resetColor() {
-        $(".fes").min.css("color", "#edc0b6");
-        $(".itc").min.css("color", "#edc0b6");
-        $(".park").min.css("color", "#edc0b6");
+        $(".fes").css("color", "#edc0b6");
+        $(".itc").css("color", "#edc0b6");
+        $(".park").css("color", "#edc0b6");
     }
 
     /**najprej spemeni dneve v tednu, da je to čim hitreje nato vsebina() spremeni še program -> function vsebina(). 
@@ -103,7 +103,7 @@ window.addEventListener("load", () => {
             prevedi[1].innerHTML = "<a href='sl/vesna'>Vesna (95’)</a>";
             prevedi[2].innerHTML = "IZBERITE PRIZORIŠČE:";
             prevedi[3].innerHTML = "KINO RADOLCA";
-            prevedi[4].innerHTML = "DRUGO";
+            prevedi[4].innerHTML = "MGC BLED";
             prevedi[5].innerHTML = "VSTOP PROST";
             prevedi[6].innerHTML = '<a class="no-display visually-hidden" href="https://ld-radovljica.kupikarto.si" target="_blank">KUPI VSTOPNICE</a>';
             prevedi[7].innerHTML = "PI&#352ITE NAM";
@@ -120,7 +120,7 @@ window.addEventListener("load", () => {
             prevedi[1].innerHTML = "<a href='en/vesna'>Vesna (95’)</a>";
             prevedi[2].innerHTML = "SELECT THE VENUE:";
             prevedi[3].innerHTML = "KINO RADOLCA";
-            prevedi[4].innerHTML = "OTHER";
+            prevedi[4].innerHTML = "MGC BLED";
             prevedi[5].innerHTML = "FREE ENTRY";
             prevedi[6].innerHTML = '<a class="no-display visually-hidden" href="https://ld-radovljica.kupikarto.si" target="_blank">BUY TICKETS</a>';
             prevedi[7].innerHTML = "EMAIL US";

@@ -61,7 +61,7 @@ enJson = {
     {
         "naslov": "21:30",
         "vrstice": [
-          "<a href='en/jezdeca'>The Foam of the Lion (18')</a>",
+          "<a href='en/foam'>The Foam of the Lion (18')</a>",
           "<a href='en/jezdeca'>Riders (117')</a>"
         ]
       }
@@ -152,8 +152,7 @@ enJson = {
         "naslov": "20:00",
         "vrstice": [
           "<a href='en/45min'>45 Minutes</a>",
-          "<a href='en/monalisa'>Mona Lisa and the Blood Moon</a>",
-          "@MGC Bled"
+          "<a href='en/monalisa'>Mona Lisa and the Blood Moon</a>"
         ]
       }
     ],
@@ -162,8 +161,7 @@ enJson = {
         "naslov": "18:00",
         "vrstice": [
           "Otvoritev razstave Iluzija drobcev",
-          "Nagovor ob otvoritvi in pogostitev",
-          "@MGC Bled"
+          "Nagovor ob otvoritvi in pogostitev"
         ]
       }
    ],
@@ -171,14 +169,12 @@ enJson = {
     {
       "naslov": "18:00",
       "vrstice": [
-        "<a href='en/potovanje'>Moonbound (98')</a>",
-        "@MGC Bled"
+        "<a href='en/potovanje'>Moonbound (98')</a>"
       ],
       "naslov": "20:00",
       "vrstice": [
         "<a href='en/moonskin'>Moonskin Fever (18')</a>",
-        "<a href='en/valley'>Valley of Light (65')</a>",
-        "@MGC Bled"
+        "<a href='en/valley'>Valley of Light (65')</a>"
       ]
     }
  ],
@@ -186,16 +182,14 @@ enJson = {
   {
     "naslov": "17:00",
     "vrstice": [
-      "<a href='en/naravoljubni'>Short nature films about water</a>",
-      "@MGC Bled"
+      "<a href='en/naravoljubni'>Short nature films about water</a>"
     ]
   },
   {
     "naslov": "19:00",
     "vrstice": [
       "<a href='en/babajanja'>Babajanja (14')</a>",
-      "<a href='en/medeni'>The Honey Movie (82')</a>",
-      "@MGC Bled"
+      "<a href='en/medeni'>The Honey Movie (82')</a>"
     ]
   }
 ],
@@ -204,15 +198,13 @@ enJson = {
    "naslov": "19:00",
    "vrstice": [
      "<a href='en/vrtiljak'>A Carousel in the Rain (3')</a>",
-     "<a href='en/530'>5 / 3 / 0 (15')</a>",
-     "@MGC Bled"
+     "<a href='en/530'>5 / 3 / 0 (15')</a>"
    ]
  },
  {
    "naslov": "19:20",
    "vrstice": [
-     "<a href='en/vrtinec'>The Whirlpool (99')</a>",
-     "@MGC Bled"
+     "<a href='en/vrtinec'>The Whirlpool (99')</a>"
    ]
  }
 ],
@@ -220,37 +212,32 @@ enJson = {
  {
    "naslov": "10:00",
    "vrstice": [
-     "<a href='en/kiti'>Whale Nation (82')</a>",
-     "@MGC Bled"
+     "<a href='en/kiti'>Whale Nation (82')</a>"
    ]
  },
  {
    "naslov": "16:00",
    "vrstice": [
      "<a href='en/speaking'>Speaking of Pastors (7')</a>",
-     "<a href='en/beyond'>The Beyond (10')</a>",
-     "@MGC Bled"
+     "<a href='en/beyond'>The Beyond (10')</a>"
    ]
  },
  {
    "naslov": "16:20",
    "vrstice": [
-     "<a href='en/prezaposlena'>Full Time (88')</a>",
-     "@MGC Bled"
+     "<a href='en/prezaposlena'>Full Time (88')</a>"
    ]
  },
  {
    "naslov": "19:00",
    "vrstice": [
-     "<a href='en/xanon'>XAnon: The Plan To Save America (25')</a>",
-     "@MGC Bled"
+     "<a href='en/xanon'>XAnon: The Plan To Save America (25')</a>"
    ]
  },
  {
    "naslov": "19:00",
    "vrstice": [
-     "<a href='en/zlocini'>Crimes of the Future (107')</a>",
-     "@MGC Bled"
+     "<a href='en/zlocini'>Crimes of the Future (107')</a>"
    ]
  }
 ],
@@ -258,29 +245,25 @@ enJson = {
  {
    "naslov": "10:00",
    "vrstice": [
-     "<a href='en/slovenskiliterarni'>Slovenian literary heroes (52')</a>",
-     "@MGC Bled"
+     "<a href='en/slovenskiliterarni'>Slovenian literary heroes (52')</a>"
    ]
  },
  {
    "naslov": "14:00",
    "vrstice": [
-     "<a href='en/gebliebenen'>Die Gebliebenen (30')</a>",
-     "@MGC Bled"
+     "<a href='en/gebliebenen'>Die Gebliebenen (30')</a>"
    ]
  },
  {
    "naslov": "16:00",
    "vrstice": [
-     "<a href='en/survivor'>Talking to a survivor (8')</a>",
-     "@MGC Bled"
+     "<a href='en/survivor'>Talking to a survivor (8')</a>"
    ]
  },
  {
    "naslov": "16:10",
    "vrstice": [
-     "<a href='en/poletje'>Summer of '91 (72')</a>",
-     "@MGC Bled"
+     "<a href='en/poletje'>Summer of '91 (72')</a>"
    ]
  }
 ]
